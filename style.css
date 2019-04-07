@@ -4,9 +4,10 @@
     margin-top: 2%;
     margin-left:32%;
     margin-right:32%; 
-    height: 70%;
-    width: 35%;
+    height: 70vh;
+    width: 35vw;
     text-align: center;
+    padding: 0;
 }
 
 .ex
@@ -20,19 +21,19 @@
 
 .cb
 {
-    width: 100%;
-    height: 17%;
+    width: 7vw;
+    height: 12vh;
     font-size: 30px;
 }
 
 .fab {
-    width: 80px;
-    height: 80px;
+    width: 6vw;
+    height: 6vw;
     
     border-radius: 50%;
     transition: all 0.1s ease-in-out;
     
-    font-size: 40px;
+    font-size: 3vw;
     color: white;
     padding: 1.5%;
     text-align: center;
@@ -102,3 +103,4 @@
 .w3-allerta {
   font-family: "Allerta Stencil", Sans-serif;
 }
+
