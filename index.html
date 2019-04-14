@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="all">
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+        
+    </head>
+    <body  id="body">
+        
+
+        <div class="banner">
+            <h1 class=" w3-allerta" style="font-size:5vw;" >Calculator</h1>
+            <h4 style="font-size:3vw;color: black;">With Speech Input </h4>
+            <h4 style="font-size:3vw; color: black;"> by 2018HT66569</h4><br><br>
+        </div>
+        
+        
+        <div class=" card main">
+            
+
+            <input type="text" id="exp" class="ex" ></input>
+
+
+            <div class="row " style="margin:1%;">
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="1">
+                            <h2 style="font-size:3vw; ">1</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="2">
+                            <h2 style="font-size:3vw;">2</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="3">
+                            <h2 style="font-size:3vw;">3</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="div">
+                                <h1 style="font-size:4vw;">/</h1>
+                        </button>
+                    </div>
+            </div>
+            <div class="row" style="margin:1%;">
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="4">
+                                <h2 style="font-size:3vw;">4</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="5">
+                            <h2 style="font-size:3vw;">5</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="6">
+                            <h2 style="font-size:3vw;">6</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="mult">
+                            <h1 style="font-size:4vw;">X</h1>
+                        </button>
+                    </div>
+            </div>
+            <div class="row" style="margin:1%;">
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="7">
+                            <h2 style="font-size:3vw;">7</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="8">
+                            <h2 style="font-size:3vw;">8</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="9">
+                            <h2 style="font-size:3vw;">9</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="sub">
+                            <h1 style="font-size:4vw;">-</h1>
+                        </button>
+                    </div>
+            </div>
+            <div class="row" style="margin:1%;">
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="0">
+                            <h2 style="font-size:3vw;">0</h2>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="decimal"> 
+                            <h1 style="font-size:3vw;">.</h1>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="eq">
+                            <h1 style="font-size:3vw;">=</h1>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 sp">
+                        <button class="btn cb" id="add">
+                            <h1 style="font-size:4vw;">+</h1>
+                        </button>
+                    </div>
+            </div>
+            <div class="row" style="margin:1%;">
+                <div class="col-xs-3 sp">
+                    <button class="btn cb" id="backsp" title="Backspace" data-toggle="tooltip" data-placement="left">
+                        <h2 style="font-size:3vw;"><i class="fas fa-backspace"></i></h2>
+                    </button>
+                </div>
+                <div class="col-xs-3 sp">
+                    <button class="btn cb" id="clear" title="Clear" data-toggle="tooltip" data-placement="bottom"> 
+                        <h1 style="font-size:3vw;">C</h1>
+                    </button>
+                </div>
+                <div class="col-xs-3 sp">
+                    <button class="btn cb" id="mic" title=" Click and Speak a Mathematical Expression" data-toggle="tooltip" data-placement="right">
+                        <h1 style="font-size:3vw;"><i class="fas fa-microphone"></i></h1>
+                    </button>
+                </div>
+                <div class="col-xs-3 sp">
+                    <button class="btn cb" id="about">
+                        <h1 style="font-size:4vw;">H</h1>
+                    </button>
+                </div>
+        </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="bak.js"></script>
+    </body>
+</html>

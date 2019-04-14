@@ -1,0 +1,94 @@
+@font-face {
+  font-family: digital;
+  src: url("font/digital-7.ttf");
+}
+body{
+  background:linear-gradient(180deg, #000000,#262626)
+}
+.main
+{
+    margin-top: 0;
+    margin-left:32vw;
+    margin-right:32%; 
+    height: 43vw;
+    width: 35vw;
+    text-align: center;
+    padding: 0;
+    background-image: url("back.jpg")
+}
+
+.ex
+{
+    width: 98%;
+    height: 8vw;
+    margin: 1%;
+    font-size: 6vw;
+    text-align: end;
+    font-family: digital;
+}
+
+.cb
+{
+    width: 7.75vw;
+    height: 5.5vw;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.cb:hover
+{
+  background-color: white;
+  color:black;
+}
+
+
+.fac
+{
+   
+    font-size: 40px;
+    padding: 1.5%;
+    text-align: center;
+    position: fixed;
+}
+
+#talkbubble {
+  width: 120px;
+  height: 80px;
+  background: red;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#talkbubble:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid red;
+  border-bottom: 13px solid transparent;
+}
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+
+.sp{
+  margin: 1%;
+}
+
+.banner
+{
+  background-image: url("back.jpg");
+  width: 35vw;
+  height: 17vw;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 1%;
+  margin-left: 32vw;
+  margin-top: 2vh;
+}
+
